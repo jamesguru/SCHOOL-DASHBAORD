@@ -60,7 +60,7 @@ const AttendanceChart = () => {
             contentStyle={{ borderRadius: "10px", borderColor: "lightgray" }}
           />
           <Legend
-            align="left"
+            align="center"
             verticalAlign="top"
             wrapperStyle={{
               paddingTop: "20px",
