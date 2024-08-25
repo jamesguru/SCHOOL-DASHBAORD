@@ -28,10 +28,10 @@ const events = [
     title: "Lorem Ipsum dolor",
     time: "12:00 PM - 2:00 PM",
     description: "Lorem Ipsum is simply dummy text of the printing",
-  },
+  }
 ];
 const EventsCalendar = () => {
-  const [value, onChange] = useState<Value>(new Date());
+  const [value, onChange] = useState<Value>(new Date("2024/08/12"));
   return (
     <div className="bg-white p-4 rounded-md">
       <Calendar onChange={onChange} value={value} />
@@ -56,5 +56,4 @@ const EventsCalendar = () => {
     </div>
   );
 };
-
 export default EventsCalendar;
